@@ -1,0 +1,6 @@
+{
+  "breakfast": { "breakfast burritos": "$60", "pancakes": "$40" },
+  "lunch": { "hamburger": "$50" },
+  "dinner": { "spaghetti": "80" },
+  "Night snack": { "beer": "$15", "skewers": "$20", "barbecue": "$25" }
+}
