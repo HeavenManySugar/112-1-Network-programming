@@ -15,7 +15,7 @@ result = []
 for n in name:
     if j == 10: break
     j += 1
-    print(f"Loading {n.text}...")
+    # print(f"Loading {n.text}...")
 
     html=rq.get(f"{n.find('a').get('href')}/performance") # 讀取靜態網頁 html
     html.raise_for_status() # 若沒讀到網頁，回傳error
