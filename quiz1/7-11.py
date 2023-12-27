@@ -4,10 +4,6 @@ import pandas as pd #分析資料的套件
 import re
 from io import StringIO
 
-def extract_street(address):
-    match = re.search(r'(\w+路|\w+街)', address)
-    return match.group(0) if match else None
-
 # 建立一個縣市的list
 # city = ['基隆市', '台北市', '新北市', '桃園市']
 city = ['基隆市', '台北市', '新北市', '桃園市', '新竹市','新竹縣','苗栗縣','台中市','彰化縣', '雲林縣', '南投縣', '嘉義縣', '嘉義市', '台南市', '高雄市', '屏東縣', '台東縣', '花蓮縣', '宜蘭縣', '連江縣', '金門縣', '澎湖縣']
