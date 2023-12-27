@@ -36,7 +36,7 @@ for index, city in enumerate(city):
     # print('%2d) %-*s %4d' % (index+1, 5, city, pd.read_html(html_io, header=0)[0].shape[0]))
 
 street_name = input()
-
+print(df_7_11_store)
 # 篩選出包含該路/街名的門市
 df_filtered = df_7_11_store[df_7_11_store['地址'].str.contains(street_name)].copy()
 
